@@ -394,6 +394,7 @@ Airdrop - Community Promotions - (13.5% of Governance Tokens)
 
 Decentralized Personal Finance
 Community Oriented with Profit Sharing Governance across Multiple Revenue Sources.
+
 ...................................................
 
 SNS Sale: 25,000 - 150,000 ICP - P2P Token - 225M
