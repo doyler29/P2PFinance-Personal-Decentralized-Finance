@@ -1,0 +1,658 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9\par
+\par
+Introduction for Developers, Retail & Investor Audience \par
+This guide reorganizes my P2P crypto exchange plan on the Internet Computer (ICP) using Caffeine AI, focusing on a community-oriented approach with profit-sharing governance. It\rquote s tailored into two parts: a concise step-by-step format for developers and a separate retail audience version, prioritizing features by implementation phase. We\rquote ll also highlight potential challenges for Caffeine AI suggest additions for a robust development plan.\par
+\par
+Developer Instructions: Step-by-Step Plan\par
+Here\rquote s a concise, prioritized plan for developers to build the exchange using Caffeine AI, from first to last stage, with prompts for implementation with addition open-source information for features:\par
+User Management and Authentication  \par
+Prompt: "Create a user management system for a P2P crypto exchange on ICP. Use Internet Identity for authentication. Store profiles with details like payment methods. Define account types: one Founder, two Admin, two Developer with full access; Standard accounts with free minimal access up to $500; subscription-based Broker, High Value Listings/Volume Trade, P2P High Value Listings/Volume Lending, Lending Brokers, P2P High Value Listings/Volume accounts, each with three tiers ($0\f1\endash $10,000, $0\endash $24,999, $0\endash $99,999). Include optional AI verification for KYC, using facial recognition or document verification. For Broker Accounts, add a management system with primary wallets and sub-wallets for clients, ensuring individual access and tracking for each client."\par
+\par
+P2P Trading and Finance Features  \par
+Prompt: "Implement P2P trading for CKBTC, CKETH,\f0\lang2057  CKSOL,\f1\lang9  BTC, ETH, ICP,\f0\lang2057  SOL,\f1\lang9  GLDT, \f0\lang2057 USDG accepting\f1\lang9  USD, GBP, EUR,\f0\lang2057  UAE, INR\f1\lang9  with 0.5% escrow fee always, 0.15% trading fee after 12 months. Add swaps with 0.15% fee, liquidity pools at 0.3%, credit card purchases at 2.5%, free deposits, standard withdrawal fees. Include lending/borrowing and exchange features, with tiered access for subscription accounts, including Broker Accounts facilitating trades for clients via sub-wallets."\par
+\par
+Investment Management System  \par
+Prompt: "Add an investment management system to track user investments across P2P features: trading, swaps, credit card purchases, lending/borrowing, withdrawals/deposits, liquidity pools, exchanges. Track performance, returns, and risk, with tiered access for subscription accounts. For Broker Accounts, track investments for primary wallets and sub-wallets, ensuring client-specific analytics."\par
+\par
+Analytics and Referral Systems  \par
+Prompt: "Build an analytics system tracking all P2P finance features\f0\lang2057  for \lang9 Founder, Admin and Developer accounts with full access\f1 : credit card purchases,\f0\lang2057  bank transfers,\f1\lang9  swaps, P2P trading, lending/borrowing, withdrawals/deposits, liquidity pools, exchanges, coin types\f0\lang2057 , \f1\lang9 new token listings\f0\lang2057  fees\f1\lang9 , advertising space\f0\lang2057  fees, subscription fees\f1\lang9 . Display in pie charts, bar charts, and text, showing dollars for value, withdrawals, deposits, transactions, volume, fees, liquidity\f0\lang2057 .\f1\lang9  \par
+\f0\lang2057 T\f1\lang9 iered\f0\lang2057  Subscription accounts\f1\lang9  access\f0\lang2057 , \f1\lang9 analytics system tracking all P2P finance features\f0\lang2057  for \f1\lang9 credit card purchases,\f0\lang2057  bank transfers,\f1\lang9  swaps, P2P trading, lending/borrowing, withdrawals/deposits, liquidity pools\f0\lang2057  and\f1\lang9  exchange,\f0\lang2057  \f1\lang9 Display in pie charts, bar charts, and text, showing dollars for value, withdrawals, deposits, transactions, volume, fees, liquidity.\par
+Add a referral section to \f0 Founder, Admin and Developer account profiles with full access\f1  , showing analytics for \f0\lang2057 Total Platform \f1\lang9 referred customers: itemized totals, total refers, statistics like volume, fees, activity levels\f0\lang2057  day, week, month, year,\f1\lang9  engagement metrics, in charts and text. \par
+Add a referral section to all profiles, showing analytics for referred customers: itemized totals, total refers, statistics like volume, fees, activity levels\f0\lang2057  day, week, month, year,\f1\lang9  engagement metrics, in charts and text. For Broker Accounts, add analytics for each sub-wallet, ensuring tiered access."\par
+\par
+\par
+Broker Accountancy and Management Features  \f0\lang2057 implement \f1\lang9\par
+Prompt: "Add accountancy management for Broker Accounts, including edit abilities for client details, transaction history, financial reporting. Include compliance tools for KYC/AML, multi-client portfolio management, automated reporting, and in-app client communication. Ensure tiered access based on subscription levels, with higher tiers unlocking advanced tools."\par
+\par
+Subscription Payments  \par
+Prompt: "Implement subscription payments for Broker, High Value Listings/Volume Trade, P2P High Value Listings/Volume Lending, Lending Brokers, P2P High Value Listings/Volume accounts, with tiers: $0\endash $10,000 ($10/month), $0\endash $24,999 ($25/month), $0\endash $99,999 ($50/month). For Broker Accounts, cover wallet management, analytics, accountancy. Process payments via ICP tokens, \f0\lang2057 USDG, \f1\lang9 USDT, or credit cards, with automated renewal. Ensure Founder, Admin, Developer have full access, Standard accounts free up to $500."\par
+\par
+Profit Sharing, Governance, and Fee Structures  \par
+Prompt: "Implement a profit-sharing system with a governance token (\f0\lang2057 P2PToken\f1\lang9 ). Distribute profits: 33% team, 33% token holders (45% after 2 years), 33% treasury, 1% buyback/burn for standard fees; adjust for referrals and liquidity pools. Allow governance voting on upgrades."\par
+\par
+Tokenomics and Airdrops  \par
+Prompt: "Set up tokenomics: SNS sale for 25,000\endash 1\f0\lang2057 50\f1\lang9 ,000 ICP for 225M P2P tokens. Allocate profits: 33% costs, 33% staked for governance, 33% listing/liquidity, 1% lottery. Tokens: 2.5% Per-Sale at $0.00175, 19% locked, 25% governance, 10% liquidity, 25% treasury, 5% referral, 13.5% airdrops. Implement airdrops at \f0\lang2057 12 \f1\lang9 weeks, \f0\lang2057 8\f1\lang9\endash\f0\lang2057 9\f1\lang9  months, 1\f0\lang2057 4\f1\lang9\endash 1\f0\lang2057 5\f1\lang9  months, with lockups, based on usage."\par
+\par
+Frontend Development  \par
+Prompt: "Design a frontend with a home page showing no P2P trading fees for the first year (except escrow), assets, referrals, profit sharing. Add an account page for editing profiles, AI verification, investments, analytics, referral analytics, transactions, governance voting, with tiered access. Ensure responsive, user-friendly design, emphasizing community engagement."\par
+\par
+\par
+Retail Audience Version: Simplified Plan\par
+For retail users, here\rquote s a simple guide on how the exchange works, focusing on community benefits:\par
+\par
+Sign Up and Use: Join using Internet Identity, create a profile, and trade P2P or swap assets like CKBTC and ETH, with no trading fees for the first year (just a small escrow fee). Use credit cards for quick buys.\par
+Community Features: Earn rewards by referring friends, with bonuses for using features like swaps or trades. Share in profits via a governance token, voting on platform decisions.\par
+Broker Services: Brokers can manage your investments, with secure wallets and detailed reports, available through subscription plans for high-value users.\par
+Analytics and Benefits: See easy charts and stats for your trades, investments, and referrals, with more details for paid plans, ensuring you\rquote re part of a community-focused platform.\par
+\par
+Potential Challenges and Additions\par
+Caffeine AI Limitations: It may struggle with complex analytics (charts, referral tracking) and broker sub-wallet management, so consider using external libraries like Chart.js Chart.js or custom code for refinement.\par
+Scalability: Ensure canisters handle multiple sub-wallets for brokers, possibly adding load balancing for high usage.\par
+Security: Add multi-signature for sub-wallets and compliance tools, ensuring KYC/AML for brokers, which Caffeine AI may need prompts to integrate fully.\par
+Additions: Consider real-time notifications for brokers, API access for client integration, and automated tax reporting for accountancy, enhancing broker-client interactions.\par
+\par
+
+\pard\sa200\sl276\slmult1\qc\f0\lang2057 XXXXXXXXXXXXXXXXXXXXXXXXX\f1\lang9\par
+
+\pard\sa200\sl276\slmult1\par
+Survey Note: Detailed Analysis of Building Your P2P Crypto Exchange with Broker Management\par
+This section provides a comprehensive analysis of how to build and implement a management system for account profiles, including a Broker management system for Broker Accounts, investment management, analytics, referral analytics, and accountancy features, on\f0\lang2057  my\f1\lang9  peer-to-peer (P2P) cryptocurrency exchange on the Internet Computer (ICP) platform using Caffeine AI\f0\lang2057 , Developer build.\f1\lang9  It incorporates all previous discussions, including updated tokenomics, governance, subscription payments, and the new request for a Broker management system, with a focus on stage-by-stage implementation for developers and a retail audience version.\par
+\par
+Understanding Caffeine AI and ICP for Broker Management Systems\par
+Caffeine AI, unveiled by the DFINITY Foundation, is an AI tool designed to simplify app development on ICP through conversational prompts. As of June 2025, it is in beta, with alpha access waitlists opened after a landmark demonstration at the World Computer Summit on June 3, 2025, as reported by FinSMEs Unveils Caffeine AI. Recent X posts, like one from @OG_CryptoPapi, compare it to ChatGPT on steroids, and @icphub_ID noted its announcement at #WCS25, suggesting early access applications. This aligns with the Internet Computer Roadmap 2025 Update, which highlights Caffeine AI as a key feature for prompt-based app creation.\par
+\par
+\f0\lang2057 T\f1\lang9 here are concerns about its readiness for complex financial applications, especially broker management systems\f0\lang2057  so developer will be needed here for more detailed features.\par
+
+\pard\sa200\sl276\slmult1\qc\f1\lang9\par
+
+\pard\sa200\sl276\slmult1\f0\lang2057 A\f1\lang9 dvanced features like multi-client wallet management, analytics, and accountancy, additional customization might be needed. \f0\lang2057 W\f1\lang9 hile Caffeine AI can handle basic structures, \f0\lang2057 i \f1\lang9  may need to refine generated code for features like multisig escrow, governance systems, and detailed analytics, especially given the complexity of tracking and displaying data for brokers and their clients.\par
+\par
+ICP offers scalable, low-cost, and tamperproof infrastructure, making it ideal for a P2P exchange with a broker management system. Given \f0\lang2057 my\f1\lang9  requirements, Caffeine AI can be instructed to build the exchange by providing detailed prompts for each stage, ensuring that features like trading/swaps, P2P trades, subscription payments, and broker management are implemented securely and efficiently, with universal analytics and referral tracking.\par
+\par
+\f0\lang2057 Using Caffeine AI to build my P2P crypto exchange on ICP with a Broker management system, ensuring community-oriented profit-sharing governance, and refine code for complex features like analytics and broker client tracking. Ensuring compliance with regulations and prioritize security, especially for financial features like escrow and payments.\f1\lang9\par
+\par
+Key Features and Implementation\par
+\par
+Account Types and Access\par
+Founder (1 account), Admin (\f0\lang2057 3\f1\lang9  accounts), Developer (2 accounts): Full access to all features, including investment management, analytics, referral analytics, and broker management, without subscription payments.\par
+\par
+Standard Accounts: Free access with minimal features, limited to transactions up to $500 (e.g., basic P2P trading, \f0\lang2057 full access \f1\lang9 swaps, deposits/withdrawals), with basic referral analytics.\par
+\par
+Subscription-Based Accounts:\par
+Broker Accounts: Facilitate trades or investments for multiple clients, with primary wallets and sub-wallets for clients, analytics for each, individual access, and tracking.\par
+\par
+High Value Listings/Volume Trade Accounts: For users with high-value trade listings or volume, with higher transaction limits.\par
+\par
+P2P High Value Listings/Volume Lending Accounts: For high-value lending in P2P, with access to lending analytics.\par
+\par
+Lending Brokers: Facilitate lending transactions, with tools for managing loans.\par
+\par
+P2P High Value Listings/Volume Accounts: General high-value P2P transactions, with broad access to P2P features.\par
+\par
+Tiered Levels:\par
+Tier 1: $0 to $10,000 (basic access to subscription features).\par
+Tier 2: $0 to $24,999 (intermediate access, more analytics and limits).\par
+Tier 3: $0 to $99,999 (full access to subscription features, detailed analytics, highest limits).\par
+\par
+Research suggests tiered subscription models are common in financial platforms, as seen with Binance\rquote s VIP program Binance VIP Program, which could inspire your approach.\par
+\par
+Broker Management System\par
+For Broker Accounts:\par
+Primary Wallets and Sub-Wallets: Brokers will have a primary wallet, with sub-wallets for each client, allowing separate tracking and management. This is common in broker systems like Interactive Brokers, where brokers manage client accounts Interactive Brokers Features.\par
+\par
+Analytics for Each: Track client investments, trades, and performance, with analytics displayed in pie charts, bar charts, and itemized text, showing totals in dollars for value, transactions, volume, fees, and liquidity. This aligns with broker analytics in eToro Broker Tools, which offers detailed client performance tracking.\par
+\par
+Individual Access and Tracking: Clients can access their sub-wallets, with brokers managing and viewing all, ensuring security and transparency, similar to Charles Schwab\rquote s client portal Charles Schwab Reporting.\par
+\par
+\par
+Suggested Features: Based on other systems and in-house financial broker systems, add:\par
+\par
+Multi-Client Portfolio Management: Track and optimize portfolios across clients, common in Robinhood Broker Features, allowing brokers to manage client assets efficiently.\par
+\par
+Compliance Tools: Automated KYC/AML checks, reporting for regulatory compliance, seen in eToro, ensuring brokers meet legal standards.\par
+\par
+Reporting and Analytics: Detailed reports for clients, like performance metrics, tax documents, and statements, standard in Charles Schwab, with edit abilities for brokers to update records.\par
+\par
+Client Communication: In-app messaging for updates, similar to Robinhood, facilitating direct communication for trade confirmations or account changes.\f0\lang2057  Using Openchat.\f1\lang9\par
+\par
+Accountancy Management Features\par
+Add accountancy management features for Broker Accounts, including:\par
+Edit abilities for client details, transaction history, and financial reporting.\par
+Compliance tools for KYC/AML, ensuring regulatory adherence.\par
+Automated reporting for performance metrics, tax documents, and client statements, with edit abilities for brokers to update records, aligning with in-house financial systems like QuickBooks for brokers QuickBooks for Brokers.\par
+\par
+\par
+Subscription Payments\par
+Implement subscription payments for Broker, High Value Listings/Volume Trade, P2P High Value Listings/Volume Lending, Lending Brokers, P2P High Value Listings/Volume accounts, with fees scaling by tier (e.g., Tier 3 costs more). For Broker Accounts, suggest fees: $10/month for Tier 1 ($0\endash $10,000), $25/month for Tier 2 ($0\endash $24,999), $50/month for Tier 3 ($0\endash $99,999), covering wallet management, analytics, and accountancy features.\par
+\par
+Ensure secure payment processing via ICP tokens, stablecoins like\f0\lang2057  USDG,  USDT\f1\lang9 , or credit cards, with automated renewal and tier adjustment based on activity, as seen in ICP Payment Solutions.\par
+\par
+Investment Management and Analytics\par
+The investment management system will track user investments across P2P finance features:\par
+P2P trading, swaps, credit card purchases,\f0\lang2057  bank transfers,\f1\lang9  lending/borrowing, withdrawals/deposits, liquidity pools, exchanges.\par
+\par
+Track performance (e.g., ROI), returns (e.g., profits), and risk (e.g., volatility), with tiered access for subscription accounts, including Broker Accounts for clients.\par
+\par
+The analytics system will display data for all P2P finance features, coin types (CKBTC, CKETH, \f0\lang2057 CKSOL, \f1\lang9 BTC, ETH, ICP, GLDT,\f0\lang2057  USDG\f1\lang9  USDT, USD, GBP, EUR\f0\lang2057 , UAE, INR\f1\lang9 ), new token listings\f0\lang2057  fees\f1\lang9 , and advertising space\f0\lang2057  fees\f1\lang9 , in pie charts, bar charts, and itemized text, with tiered access ensuring Founder, Admin, Developer see all, and subscription accounts see data based on tier.\par
+\par
+Referral Analytics Section\par
+Include a referral section on all account profiles, showing analytics for referred customers:\par
+Itemized totals (earnings per referred user), total refers, and statistics (volume, fees, activity levels, engagement metrics\f0\lang2057 , day, week, month, year\f1\lang9 ).\par
+\par
+Display in pie charts, bar charts, and itemized text, with tiered access ensuring Founder, Admin, Developer see all, Standard accounts see basic data, and subscription accounts see detailed data based on tier.\par
+\par
+Previous Features Incorporated\par
+\f0\lang2057 My\f1\lang9  exchange includes:\par
+\par
+P2P Trading: 0.5% escrow fee always, 0.15% trading fee after 12 months.\par
+Direct Swaps: 0.15% trading fee, 0.3% liquidity pool fee, always charged.\par
+Credit Card Purchases: 2.5% fee, always charged.\par
+Deposits/Withdrawals: Free deposits, standard withdrawal fees (e.g., network fee plus platform margin).\par
+\par
+Referral Program: 33% for \f0\lang2057 2\f1\lang9  years, then 21%, with 5% governance tokens for bonuses over 12 months.\par
+Profit Sharing: 33% for \f0\lang2057 2\f1\lang9  years, then 45%, with remaining profits split: 33% team, 33% treasury, 1% buyback/burn.\par
+\par
+Tokenomics: SNS sale for 25,000\endash 1\f0\lang2057 50\f1\lang9 ,000 ICP, 225M P2P tokens, with distributions for Per-Sale (2.5% at $0.00175), founders (10.5%), developers (8.5%), governance sale (25%), liquidity (10%), treasury (25%), referral bonuses (5%), airdrops (13.5%).\par
+\par
+Airdrops: 1% onboarding, 1.5% at \f0\lang2057 12 \f1\lang9 weeks, 3% post-SNS, 4% at \f0\lang2057 8\f1\lang9\endash\f0\lang2057 9\f1\lang9  months, 4% at 1\f0\lang2057 4\f1\lang9\endash 1\f0\lang2057 5\f1\lang9  months, with lockups for 1\endash 2 years, released quarterly.\par
+\par
+These features will integrate with the Broker management system, ensuring a cohesive platform.\par
+\par
+Fee Comparison and Suggestions\par
+Compare\f0\lang2057 d\f1\lang9  with other platforms:\par
+\par
+Binance Broker Fees: 0.1% trading fee, $10 monthly for advanced tools Binance Fees.\par
+Coinbase Broker Fees: 0.5% trading fee, $29.99/month for analytics Coinbase Pro Fees.\par
+Kraken Broker Fees: 0.16% trading fee, $50/month for pro accounts Kraken Fees.\par
+\par
+Interactive Brokers: $10/month base, $1 per trade for clients Interactive Brokers Fees.\par
+\par
+Suggested Fees for Broker Accounts: Based on industry standards, suggest:\par
+Tier 1 ($0\endash $10,000): $10/month, basic wallet management, analytics, accountancy.\par
+Tier 2 ($0\endash $24,999): $25/month, intermediate analytics, multi-client tools.\par
+Tier 3 ($0\endash $99,999): $50/month, full analytics, compliance, reporting.\par
+\par
+These fees cover wallet management, analytics, and accountancy, aligning with competitors while leveraging ICP\rquote s low-cost infrastructure.\par
+\par
+Stage-by-Stage Implementation with Caffeine AI\f0\lang2057  and Developer refinement \f1\lang9\par
+To build this, instruct\f0\lang2057 ing\f1\lang9  Caffeine AI stage by stage, using natural language prompts. \par
+\par
+Below are the prompts, ensuring each stage is completed before moving to the next:\par
+User Management and Authentication:\par
+\par
+Build a user management system for a P2P crypto exchange on ICP. Use Internet Identity for authentication. Store user profiles in the canister, allowing users to edit details like payment methods and bank details for P2P trades. Define account types: one Founder, two Admin, two Developer with full access without subscriptions; Standard accounts with free minimal access up to $500; subscription-based Broker, High Value Listings/Volume Trade, P2P High Value Listings/Volume Lending, Lending Brokers, P2P High Value Listings/Volume accounts, each with three tiers ($0\endash $10,000, $0\endash $24,999, $0\endash $99,999). Include optional AI verification for KYC, using facial recognition or document verification. For Broker Accounts, add a management system with primary wallets and sub-wallets for clients, ensuring individual access and tracking for each client.\par
+\par
+P2P Trading and Finance Features:\par
+\par
+Implement P2P trading features for a crypto exchange on ICP. Allow users to create buy and sell offers for CKBTC, CKETH,\f0\lang2057  CKSOL,\f1\lang9  BTC, ETH, ICP, GLDT, \f0\lang2057 USDG, \f1\lang9 USDT, USD, GBP, EUR\f0\lang2057  UAE,INR\f1\lang9 . Use a 2-of-3 multisig escrow system for all P2P trades, charging a 0.5% escrow fee on the trade amount. For the first 12 months after launch, do not charge the 0.15% trading fee for P2P trades; after 12 months, charge a 0.15% trading fee in addition to the escrow fee. Add direct crypto swaps using liquidity pools for pairs among listed assets, with 0.15% trading fee and 0.3% liquidity pool fee, always charged. Include credit card purchases at 2.5%, free deposits, and standard withdrawal fees (e.g., network fee plus small platform fee). Add lending/borrowing and exchange features, with tiered access for subscription accounts, including Broker Accounts facilitating trades for clients via sub-wallets.\par
+\par
+Investment Management System:\par
+\par
+Add an investment management system to track user investments across P2P finance features: P2P trading, swaps, credit card purchases, lending/borrowing, withdrawals/deposits, liquidity pools, exchanges. Track performance (e.g., ROI), returns (e.g., profits), and risk (e.g., volatility), storing data in canisters for scalability. Ensure Founder, Admin, Developer accounts have full access, while subscription accounts (Broker, High Value Listings/Volume Trade, P2P High Value Listings/Volume Lending, Lending Brokers, P2P High Value Listings/Volume) have tiered access based on their tier ($0\endash $10,000, $0\endash $24,999, $0\endash $99,999), with higher tiers unlocking advanced tools like portfolio optimization. For Broker Accounts, track investments for primary wallets and sub-wallets, ensuring client-specific analytics.\par
+\par
+Investment, Referral, and Broker Analytics Management System:\par
+\par
+Build an investment, referral, and broker analytics management system, universal across account types, with layered access. Track and display analytics for all P2P finance features: credit card purchases, swaps, P2P trading, lending/borrowing, withdrawals/deposits, liquidity pools, exchanges. Include coin types: CKBTC, CKETH,\f0\lang2057  CKSOL,\f1\lang9  BTC, ETH, ICP, GLDT,\f0\lang2057  USDG,\f1\lang9  USDT, USD, GBP, EUR,\f0\lang2057  UAE, INR\f1\lang9  new token listings, and advertising space. Display analytics in pie charts, bar charts, and itemized text, showing platform totals and itemized data for each feature, with totals in dollars for value, withdrawals, deposits, transactions, volume, fees, and liquidity. Add a referral section to all account profiles, showing analytics for referred customers: itemized totals (earnings per referred user from trades), total refers (count of referred users), and statistics (volume, fees, activity levels like swaps, trades, lending/borrowing, engagement metrics like wallet age, unique days/weeks/months\f0\lang2057 /years\f1\lang9 ). For Broker Accounts, add analytics for each sub-wallet, showing client-specific investment and referral data, with pie charts, bar charts, and text, ensuring tiered access. Ensure Founder, Admin, Developer accounts see all data, while subscription accounts have tiered access: Tier 1 ($0\endash $10,000) sees basic analytics, Tier 2 ($0\endash $24,999) sees intermediate analytics, Tier 3 ($0\endash $99,999) sees detailed analytics, Standard accounts see minimal analytics up to $500.\par
+\par
+Accountancy Management Features for Brokers:\par
+\par
+Add accountancy management features for Broker Accounts, including edit abilities for client details, transaction history, and financial reporting. Include compliance tools for KYC/AML, multi-client portfolio management, automated reporting for performance metrics and tax documents, and in-app client communication for updates. Ensure these features are accessible within the Broker management system, with tiered access based on subscription levels ($0\endash $10,000, $0\endash $24,999, $0\endash $99,999), with higher tiers unlocking advanced reporting and compliance tools.\par
+\par
+Subscription Payments:\par
+\par
+Implement subscription payments for Broker, High Value Listings/Volume Trade, P2P High Value Listings/Volume Lending, Lending Brokers, P2P High Value Listings/Volume accounts, with three tiers: $0\endash $10,000, $0\endash $24,999, $0\endash $99,999. Higher tiers cost more and unlock advanced features like detailed analytics, higher transaction limits, and investment tools. For Broker Accounts, suggest fees: $10/month for Tier 1, $25/month for Tier 2, $50/month for Tier 3, covering wallet management, analytics, and accountancy. Process payments securely via ICP tokens, stablecoins like USDT, or credit cards, with automated renewal and tier adjustment based on user activity (e.g., trading volume, lending value). Ensure Founder, Admin, Developer accounts have full access without subscriptions, and Standard accounts have free minimal access up to $500.\par
+\par
+Profit Sharing, Governance, and Fee Reward Structures:\par
+\par
+Implement a profit-sharing system using a governance token on ICP (\f0\lang2057 P2PToken\f1\lang9 ). Create the token and allow users to hold it. Calculate the platform's profits from all revenue streams, including escrow fees, trading fees from swaps, credit card purchase fees,\f0\lang2057  bank transfer fees, new token listing fees, Advertising Fees,\f1\lang9  withdrawal fees, subscription payments, etc.\par
+Distribute:\par
+- **Standard Platform Fee Rewards (no referrals):**\par
+  - 33% to the team.\par
+  - 33% for profit sharing via governance token.\par
+  - 33% for marketing, maintenance, development costs (Treasury Fund).\par
+  - 1% for buyback/burn.\par
+\par
+- **Platform Fee Reward Referral Structure:**\par
+  - 33% for referral program (21% after 2 years).\par
+  - 33% for profit sharing via governance token (increased to 45% after 2 years).\par
+  - 33% for marketing, maintenance, development costs (Treasury Fund).\par
+  - 1% for buyback/burn.\par
+\par
+- **Standard Liquidity Pool Fee Rewards (no referrals):**\par
+  - 33% for marketing, maintenance, development costs (Treasury Fund).\par
+  - 33% for profit sharing via governance token.\par
+  - 33% for liquidity providers.\par
+  - 1% for buyback/burn.\par
+\par
+- **Liquidity Pool Fee for Referral Rewards:**\par
+  - 33% for referral program (21% after 2 years).\par
+  - 33% for profit sharing via governance token (increased to 45% after 2 years).\par
+  - 33% for liquidity providers.\par
+  - 1% for buyback/burn.\par
+\par
+Allow token holders to participate in governance decisions, such as voting on platform upgrades or fee structures.\par
+\par
+Tokenomics Implementation:\par
+Implement the tokenomics structure for the P2P exchange:\par
+\par
+- Conduct an SNS sale for 25,000\endash 1\f0\lang2057 50\f1\lang9 ,000 ICP to raise funds for the P2P token (225M supply).\par
+- Allocate ICP \f0\lang2057 Profits \f1\lang9 as follows:\par
+  - 33% for marketing, maintenance, development, \f0\lang2057 Accountancy & L\f1\lang9 egal costs (Treasury Fund).\par
+  - 33% staked in ICP neurons for NNS, \f0\lang2057 Caffeineai\f1\lang9 , Goldgov:\par
+    - 33% governance rewards.\par
+    - 33% re-staked for long-term rewards.\par
+    - 33% to the team.\par
+    - 1% for buyback/burn.\par
+  - 33% for listing and liquidity on the platform and partner platforms\par
+\par
+\par
+Available Open-Source Apps on ICP\par
+\par
+User Management and Authentication\par
+ICNS (Internet Computer Name Service): Use for user identity and domain management, ensuring secure profiles. It\rquote s open-source and supports ICP\rquote s Internet Identity icns.id.\par
+OpenChat: An open-source messaging app for in-app communication, adaptable for broker-client interactions openchat.co.\par
+\par
+Trading and Finance Features\par
+Origyn: An open-source NFT marketplace, which can be modified for P2P trading and swaps, supporting assets like CKBTC and GLDT origyn.com.\par
+DFINITY Canister SDK: Open-source tools for building canisters, useful for escrow and liquidity pool implementations sdk.dfinity.org.\par
+\par
+Analytics and Management\par
+ICP Dashboard: Open-source analytics tools for tracking transactions, adaptable for investment and referral analytics icp-dashboard.com.\par
+Chart.js Integration: While not ICP-specific, open-source charting libraries can be integrated for analytics displays, requiring custom code chartjs.org.\par
+\par
+Suggested Additions\par
+Consider adding real-time notifications for brokers using OpenChat, and API access for client integration, common in broker systems.\par
+\par
+Available Open-Source Apps on ICP for Feature Implementation\par
+\par
+Below is a detailed breakdown of open-source apps on ICP that can be used for your P2P exchange features\par
+\par
+User Management and Authentication\par
+ICNS (Internet Computer Name Service):  \par
+Description: ICNS is an open-source decentralized name service on ICP, used for user identity and domain management, supporting Internet Identity for authentication icns.id. It\rquote s built with Motoko and deployed as canisters, offering a foundation for user profiles and secure authentication.\par
+Relevance: Can be adapted for your user management system, ensuring secure profiles for Founder, Admin, Developer, Standard, and subscription accounts, including Broker Accounts with sub-wallets.\par
+Integration: Use ICNS for user identity verification, possibly integrating with Caffeine AI prompts to generate profile management canisters. A GitHub repository GitHub - Psychedelic/icns-js provides an SDK, suggesting compatibility, but customization may be needed for sub-wallet tracking.\par
+Potential Challenge: Caffeine AI may struggle with integrating ICNS\rquote s registrar canisters for sub-wallet management, requiring manual code refinement for broker-client relationships.\par
+\par
+OpenChat:  \par
+Description: OpenChat is an open-source messaging app on ICP, built for decentralized communication, suitable for in-app messaging openchat.co. It\rquote s deployed as canisters and supports real-time messaging, adaptable for broker-client interactions.\par
+Relevance: Can be used for client communication in Broker Accounts, aligning with suggested features like in-app updates, enhancing user engagement.\par
+Integration: Integrate OpenChat for messaging within the Broker management system, possibly via Caffeine AI prompts to generate communication canisters. A GitHub repository GitHub - openchatnetwork/openchat shows open-source code, but customization may be needed for broker-specific workflows.\par
+Potential Challenge: Caffeine AI may need additional prompts for real-time messaging integration, and scalability for multiple clients per broker could require load balancing.\par
+\par
+Trading and Finance Features\par
+Origyn:  \par
+Description: Origyn is an open-source NFT marketplace on ICP, built for decentralized asset trading, adaptable for P2P trading and swaps origyn.com. It uses Motoko and canisters for asset management, supporting assets like CKBTC and GLDT.\par
+Relevance: Can be modified for your P2P trading and swap features, including escrow systems and liquidity pools, aligning with your requirements for CKBTC, CKETH, and other assets.\par
+Integration: Use Origyn\rquote s trading logic for P2P and swap implementations, possibly via Caffeine AI prompts to generate trading canisters. A GitHub repository GitHub - origynfoundation/origyn shows open-source code, but customization may be needed for fiat (USD, GBP, EUR) P2P trades.\par
+Potential Challenge: Caffeine AI may struggle with adapting Origyn for multisig escrow and tiered access, requiring manual code for security and access control.\par
+\par
+DFINITY Canister SDK:  \par
+Description: The DFINITY Canister SDK is an open-source toolkit for building canisters on ICP, useful for implementing escrow, liquidity pools, and lending/borrowing features sdk.dfinity.org. It includes Motoko and Rust libraries for canister development.\par
+Relevance: Essential for building core financial features like escrow (2-of-3 multisig) and liquidity pools, supporting your P2P finance features.\par
+Integration: Use the SDK for canister development, possibly via Caffeine AI prompts to generate smart contracts for trading and finance. The SDK\rquote s documentation DFINITY Developer Docs shows open-source availability, but customization may be needed for broker sub-wallet integration.\par
+Potential Challenge: Caffeine AI may need detailed prompts for canister interactions, and scalability for broker client transactions could require additional optimization.\par
+\par
+Analytics and Management\par
+ICP Dashboard:  \par
+Description: ICP Dashboard is an open-source analytics tool for tracking transactions on ICP, adaptable for investment and referral analytics icp-dashboard.com. It\rquote s built with React and canisters, offering visualization for transaction data.\par
+Relevance: Can be used for your investment analytics management system, displaying data for credit card purchases, swaps, P2P trading, and more, with charts and text for all account types.\par
+Integration: Integrate ICP Dashboard for analytics, possibly via Caffeine AI prompts to generate visualization canisters. A GitHub repository GitHub - icp-dashboard/icp-dashboard shows open-source code, but customization may be needed for referral and broker-specific analytics.\par
+Potential Challenge: Caffeine AI may struggle with generating complex charting (e.g., pie, bar) for referral analytics, requiring external libraries like Chart.js Chart.js or custom code.\par
+\par
+Chart.js Integration:  \par
+Description: While not ICP-specific, Chart.js is an open-source charting library for JavaScript, widely used for analytics visualizations, adaptable for your frontend Chart.js.\par
+Relevance: Can be integrated for displaying analytics in pie charts, bar charts, and text, supporting investment and referral analytics for all account types, including Broker Accounts.\par
+Integration: Use Chart.js via frontend prompts in Caffeine AI, possibly generating React components for charts. Given its open-source nature, it\rquote s compatible, but integration may require manual frontend work.\par
+Potential Challenge: Caffeine AI may need additional prompts for Chart.js integration, and ensuring scalability for real-time analytics could require custom backend canisters.\par
+\par
+\par
+Suggested Additions and Potential Challenges\par
+\par
+Real-Time Notifications: Add for brokers using OpenChat, ensuring client updates, common in broker systems. Caffeine AI may need prompts for real-time features, possibly requiring additional canisters for scalability.\par
+API Access: Consider for client integration, allowing brokers to connect external tools, seen in Interactive Brokers. Caffeine AI may struggle with API generation, requiring custom code.\par
+Automated Tax Reporting: Add for accountancy, ensuring compliance, standard in QuickBooks. Caffeine AI may need detailed prompts for reporting, with potential customization for ICP-specific regulations.\par
+Scalability: Ensure canisters handle multiple sub-wallets for brokers, possibly adding load balancing, as seen in ICP Scalability Solutions\par
+Security: Add multi-signature for sub-wallets and compliance tools, ensuring KYC/AML for brokers, which Caffeine AI may need prompts to integrate fully.\par
+\par
+\par
+Implementation Phases for Developers\par
+Below is a summarizing the implementation phases, prioritized by feature, with open-source apps and potential challenges:\par
+\par
+Phase\f0\lang2057  - \f1\lang9 Feature\f0\lang2057  - \f1\lang9 Open-Source App\f0\lang2057  - \f1\lang9 Potential Challenge\par
+\par
+1. User Management\par
+Authentication, Profiles\par
+ICNS, OpenChat\par
+Sub-wallet integration, real-time messaging\par
+\par
+2. Trading and Finance\par
+P2P, Swaps, Lending\par
+Origyn, DFINITY Canister SDK\par
+Escrow customization, scalability\par
+\par
+3. Investment Management\par
+Tracking Investments\par
+ICP Dashboard\par
+Performance analytics, client-specific data\par
+\par
+4. Analytics and Referrals\par
+Charts, Referral Tracking\par
+ICP Dashboard, Chart.js\par
+Complex charting, referral metrics\par
+\par
+5. Broker Management\par
+Wallets, Accountancy, Compliance\par
+OpenChat, QuickBooks-inspired\par
+Multi-client management, compliance tools\par
+\par
+6. Subscription Payments\par
+Tiered Access, Payments\par
+ICP Payment Solutions\par
+Payment processing, tier adjustment\par
+\par
+7. Governance and Tokenomics\par
+Profit Sharing, Airdrops\par
+DFINITY Canister SDK\par
+Governance voting, airdrop lockups\par
+\par
+8. Frontend Development\par
+UI, Responsive Design\par
+Chart.js, React\par
+Custom styling, user experience\par
+\par
+\f0\lang2057 .....................................................\f1\lang9\par
+\par
+Retail\f0\lang2057 /Investor\f1\lang9  Audience Version: Simplified\f0\lang2057 /Detailed\f1\lang9  Plan\f0\lang2057  \f1\lang9\par
+\par
+For retail users, here\rquote s a simple guide on how the exchange works, focusing on community benefits:\par
+\par
+Sign Up and Use: Join using Internet Identity, create a profile, and trade P2P or swap assets like CKBTC and ETH, with no trading fees for the first year (just a small escrow fee). Use credit cards for quick buys\par
+Community Features: Earn rewards by referring friends, with bonuses for using features like swaps or trades. Share in profits via a governance token, voting on platform decisions.\par
+Broker Services: Brokers can manage your investments, with secure wallets and detailed reports, available through paid plans for high-value users.\par
+Analytics and Benefits: See easy charts and stats for your trades, investments, and referrals, with more details for paid plans, ensuring you\rquote re part of a community-focused platform.\par
+\par
+\par
+P2P\f0\lang2057 Finance\f1\lang9  Decentralized Trading Hub\par
+\par
+Buy, Sell & Swap\par
+\f0\lang2057 CKBTC/CKETH/\f1\lang9 BTC/ETH/ICP/SOL/GLDT/\f0\lang2057 USDG/\f1\lang9 USDT/USD,GBP,EUR,UAE,INR\par
+100+ Payment Methods (In Time)\par
+Escrow Protection\par
+Zero Fees \endash  P2P Trading\par
+P2P Lending\par
+Exchange \endash  Advanced Features\par
+\f0\lang2057 Broker Client Management System \f1\lang9\par
+No KYC \endash  Stay Anonymous\par
+Buyer/Seller Reviews\par
+\par
+Referral Program - (33% of Referred Fees)\par
+Profit Sharing - (33% via Governance Tokens)\par
+Early P2P Partner/Broker Incentives - (33% of P2P Trading Fees)\par
+\par
+Airdrop - Community Promotions - (13.5% of Governance Tokens)\par
+\par
+Decentralized Personal Finance\par
+Community Oriented with Profit Sharing Governance across Multiple Revenue Sources.\par
+...................................................\par
+\par
+SNS Sale: 25,000 - 1\f0\lang2057 50\f1\lang9 ,000 ICP - P2P Token - 225M\par
+\par
+ICP Governance Fund\par
+\par
+( 33% ) - Marketing/Maintenance/Development/Legal, Accountant Cost's, Treasury Fund\par
+\par
+( 33% ) - Staked, ICP Neurons - NNS, (WTN/CAFFAi ???), Goldgov (Profit sharing) 33% Governance rewards, 33% re-staked for long-term rewards for Marketing/Maintenance & Development Costs, 33% Founders/Team, 1% Buyback/burn\par
+\par
+( 33% ) - Listing, Liquidity on platform plus various partner platforms (Profit sharing - 33% Governance rewards, 33% re-added for long-term rewards for Marketing/Maintenance/Development Costs, 33% Treasury, 1% Buyback/burn)\par
+\par
+( 1% ) - Lottery - 5 Winners who participate in Per-Sale. Governance sale, minimum 2 ICP - 10 Winners if over 50,000 ICP raised.\par
+\par
+................................\par
+\par
+P2P Token - 225M\par
+\par
+( 2.5% ) - Per-Sale or VC Funding @ $0.00175 (Funds - Third Party Review) - Per-Sale, No Lockup - VC Funding, Lockup Period - Released Neurons - Plus Airdrop Shares - Per-Sale, Lottery entries per 2 ICP\par
+\par
+( 19% ) - Founders - 10.5% / Developers - 8.5% - Funds placed in Locked Neurons\par
+( 25% ) - Governance Sale - Staking earns 1.5% - 3.5% Annual + Profit Sharing\par
+( 10% ) - Liquidity - various partner platforms\par
+( 25% ) - Treasury - Future development/Marketing/Maintenance/Legal Cost's\par
+( 5% ) - Governance Token Reward for Referral Bonus\par
+( 13.5% ) - Airdrop - Onboarding Community through various Promotions\par
+\par
+................................\par
+\par
+P2P Token Utility - Governance Token - Profit Sharing - Staking Rewards 1% - 3.5% Annual\par
+\par
+Profit Sharing - Staked Rewards, ICP Governance Fund Neurons\par
+\par
+Profit Sharing - Governance Fund - Liquidity Pool Rewards, Liquidity + Governance share on P2P Finance + Liquidity Pool Rewards, various Partner Platforms\par
+\par
+Profit Sharing - P2P Liquidity Pool Rewards - Liquidity + Governance share on P2P Finance + Liquidity Pool Rewards, various Partner Platforms\par
+\par
+Profit Sharing - Revenue Avenues on P2P Finance - Platform Fee Rewards\par
+\par
+Profit Sharing - On-going Platforms Long-term Milestones & Goals\par
+\par
+Community Oriented with Profit Sharing Governance across Multiple Revenue Sources.\par
+\par
+A more detailed Reward structure is all listed below on Profit Sharing, Platform Fee Rewards, Airdrop Rewards, Referral Governance Token Rewards & P2P Partner/Broker Incentives.\par
+\par
+...................................................\par
+\par
+\par
+Profit-Sharing via Community Governance Token - Revenue Avenues - Fee Structure\par
+\par
+Credit Card Purchases: 2.5% fee\par
+\par
+Bank transfer on-ramps with low fees(In Time)\par
+\par
+Direct Swaps: 0.15% trading fee + 0.3% liquidity pool fee\par
+\par
+P2P Trading: 0.5% escrow fee always: +0.15% trading fee waived for the first 12 months, then applied.\par
+\par
+Withdrawal/Deposit Fees: Standard blockchain fees: +0.15% trading fee waived for the first 12 months, then applied.\par
+\par
+P2P Lending Fees & Exchange Fees(In Time)\par
+\par
+High Volume Trading or P2P Brokers & P2P Lending Brokers - Subscriptions Fee\par
+\par
+New Token Listing Fee (Community Vote)\par
+\par
+P2P Premium Features Access - Subscriptions Fee's\par
+\par
+Advertising space - Sponsored Project Fee\par
+\par
+................................\par
+\par
+Profit-Sharing via Community Governance Rewards when the Platform hits Long-term Milestones & Goals\par
+\par
+When the Platform reaches certain on-going goals, ultimately through to the platform's paying for itself. Community should be Rewarded along with the Teams Celebrations via Governance Rewards\par
+\par
+................................\par
+\par
+Marketing to on-board New People & Businesses (First 1\f0\lang2057 4\f1\lang9 /1\f0\lang2057 5\f1\lang9  months) with Referral/Airdrop/Broker Incentives.\par
+\par
+(5%) Governance Token Rewards for Referral bonuses over first 12 months + 33% Referral of referred fees\par
+\par
+(13.5%) - Airdrop Incentives - Onboarding New People & Businesses through various Promotions over first 12 months, Governance Token Rewards\par
+\par
+33% Platform P2P Trade fees - Partner/Broker Rewards - 5 years, No Fees on P2P Trading + Multiplier-Airdrop Promotion + various other Incentives. (Partner/Broker spots available, upto 50)\par
+\par
+A more detailed Marketing Reward structure is listed below:\par
+\par
+................................\par
+\par
+Airdrop - (1%) Onboarding Community through various promotions\par
+\par
+Airdrop 2/1st stage: - (1.5%) - \f0\lang2057 6-8 \f1\lang9 weeks after Governance sale - Participate in Governance sale, minimum 2 ICP - Use features - Signup/add details/verify. (No Lockup)\par
+\par
+Airdrop 2/2nd stage: (3%) Then after Governance sale, \f0\lang2057 3\f1\lang9  month window for further Airdrop Bonuses after SNS finishes. (Locked Neurons 1-2 years, Released each quarter)\par
+1. Swap feature - 5 txt minimum on swaps.\par
+2. Bonus P2P trade feature - Complete one P2P trade for over $10.\par
+3. Bonus Credit Card feature - Purchase once with Credit Card over $25.\par
+\par
+Airdrop 3 - (4%) - \f0\lang2057 8\f1\lang9  or \f0\lang2057 9\f1\lang9  months after Governance sale (6 month window) - Standard Criteria/ Use features - Native TXs/Credit Card Purchases/Swaps/P2P trades, Volume, Wallet age, Unique days, Unique weeks, Unique months. (Locked Neurons 1-2 years, Released each quarter)\par
+\par
+Airdrop 4 - (4%) - 1\f0\lang2057 4\f1\lang9  or 1\f0\lang2057 5\f1\lang9  months after Governance sale (6 month window) - Standard Criteria/ Use features - Native TXs/Credit Card Purchases/Swaps/P2P trades, Volume, Wallet age, Unique days, Unique weeks, Unique months. (Locked Neurons 1-2 years, Released each quarter)\par
+\par
+................................\par
+\par
+First few month's window to qualify for benefits, Broker Fee then applies.\par
+\par
+P2P Partner/Broker Incentive benefits:\par
+\par
+High-Lighted Profile & Listings\par
+\par
+Trusted Partner/Broker Profile\par
+\par
+Trusted Partner/Broker Listings\par
+\par
+5 years - No Fee's on P2P Trading\par
+\par
+5 years - No Fee for Broker Benefits\par
+\par
+33% Platform P2P Trade fee's - shared rewards\par
+\par
+Personal Referral/link for referral bonus on Referral program\par
+\par
+\f0\lang2057 Investment Client Management System \f1\lang9\par
+\par
+Early Broker's Partners - Qualify for Multiplier in the Airdrop/Governance Token rewards.\par
+\par
+................................\par
+\par
+To qualify for airdrop multiplier/shared reward/Partner - Broker Benefits, certain conditions will need to be meet during the first and second year of services to the P2P Finance Community.\par
+\par
+................................\par
+\par
+Early P2P Partners/Brokers details:\par
+\par
+On-Boarding, initially 10+ high volume traders for Early P2P Partners/Brokers in the relative regions, other regions will be considered to suit Community. ( upto 25/50 over Time )\par
+\par
+We'll be looking to on-board Individuals & Businesses from the UK, US, Europe, The United Arab Emirates and INDIA that can accept/offer the various P2P Currencies available, (BTC/ETH/ICP/GLDT/SOL/USDT) for the relative regional currencies USD,GBP,EUR,UAE,INR using the various accepted Payment Methods.\par
+\par
+................................\par
+\par
+Subject to change, Community feedback\par
+\par
+................................\par
+\par
+Standard Platform Fee Reward Structure with no referrals.\par
+\par
+(33%) Founders/Team\par
+\par
+(33%) Profit sharing via governance token\par
+\par
+(33%) Marketing/Maintenance/Development Costs - Treasury Fund\par
+\par
+(1%) Buyback/burn\par
+\par
+................................\par
+\par
+Platform Fee Reward Referral Structure.\par
+\par
+(33%) Referral program of referred fees - 21% 2 years after SNS Sale\par
+\par
+(33%) Profit sharing via governance token - increased to 45% after 2 years live\par
+\par
+(33%) Marketing/Maintenance/Development Costs - Treasury Fund\par
+\par
+(1%) Buyback/burn\par
+\par
+................................\par
+\par
+Liquidity Pool Fee for Referral Rewards structure\par
+\par
+(33%) Referral program of referred fees - 21% 2 years after SNS Sale\par
+\par
+(33%) Profit sharing via governance token - increased to 45% after 2 years live\par
+\par
+(33%) Liquidity Providers\par
+\par
+(1%) Buyback/burn\par
+\par
+................................\par
+\par
+Standard Liquidity Pool Fee Rewards with No referrals.\par
+\par
+(33%) Marketing/Maintenance/Development Costs - Treasury Fund\par
+\par
+(33%) Profit sharing via governance token\par
+\par
+(33%) Liquidity Providers\par
+\par
+(1%) Buyback/burn\par
+\par
+................................\par
+\par
+P2P Trade Fee Reward Structure with no referrals. (trading fee waived for the first 12 months, then applied).\par
+\par
+(33%) Founders/Team\par
+\par
+(33%) Profit sharing via governance token\par
+\par
+(33%) Early P2P Partners/Broker - reverted to Marketing/Maintenance/Development, (Treasury Fund) after 2 years live\par
+\par
+(1%) Buyback/burn\par
+\par
+................................\par
+\par
+P2P Trade Fee Reward Structure with referrals. (trading fee waived for the first 12 months, then applied).\par
+\par
+(33%) Referral program of referred fees - 21% 2 years after SNS Sale\par
+\par
+(33%) Profit sharing via governance token - increased to 45% after 2 years live\par
+\par
+(33%) Early P2P Partners/Broker - reverted to Marketing/Maintenance/Development, (Treasury Fund) after 2 years live\par
+\par
+(1%) Buyback/burn\par
+\par
+................................\par
+\par
+Premium - High Volume Trading or P2P Brokers & P2P Lending Brokers - Platform Subscriptions Fee\par
+\par
+P2P Premium Feature Benefits:\par
+Priority Customer Support\par
+High Volume Traders - Reduced Exchange/Trading Fees, advanced charting tools with Ai assistant\par
+No Fee's on your P2P Trading\par
+No Fee's on your P2P Lending\par
+Trusted Broker/Lender Profile\par
+Trusted P2P Broker/Lender Listings\par
+Highlighted Profile/Listings on the P2P Platform\par
+................................\par
+\par
+Implemented later in the Roadmap:\par
+\par
+P2P Lending, an Exchange with Premium features for a subscription fee, such as lower trading fees, advanced charting tools, Ai assist and priority customer support.\par
+\par
+Margin Trading (Optional, Community decision), Premium features for a subscription fee.\par
+\f0\lang2057\par
+\f1\lang9\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\f0\par
+\par
+}
+ 
