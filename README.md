@@ -1219,6 +1219,7 @@ By following the stage-by-stage prompts, you can instruct Caffeine AI to build m
 
 
 
+
 Retail Audience Version: Simplified Plan
 For retail users, here’s a simple guide on how the exchange works, focusing on community benefits:
 
@@ -1229,6 +1230,12 @@ Analytics and Benefits: See easy charts and stats for your trades, investments, 
 
 
 P2PFinance Decentralized Trading Hub
+
+Powered by ICP
+
+Jerome Doyle - @Wiseowl_icp Creator, Founder & CEO
+
+
 
 Buy, Sell & Swap
 CKBTC/CKETH/BTC/ETH/ICP/SOL/GLDT/USDG/USDT/USD,GBP,EUR,UAE,INR
