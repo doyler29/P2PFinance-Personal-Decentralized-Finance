@@ -1,7 +1,7 @@
 # P2PFinance---Personal-Decentralized-Finance
 
 
-Below is a two-page summary of the P2PFinance document, designed to provide a clear & comprehensive overview of its content and purpose. I’ve added more key points to each section, keeping each point concise for readability. This enhances the details on my decentralized exchange’s features, purpose, and implementation on the Internet Computer (ICP), giving readers a thorough understanding of the P2PFinance's Platform & scope.
+Below is a summary of the P2PFinance document, designed to provide a clear & comprehensive overview of its content and purpose. I’ve added more key points to each section, keeping each point concise for readability. This enhances the details on my decentralized exchange’s features, purpose, and implementation on the Internet Computer (ICP), giving readers a thorough understanding of the P2PFinance's Platform & scope.
 
 .................................................
 
