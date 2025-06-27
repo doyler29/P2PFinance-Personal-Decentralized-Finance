@@ -103,9 +103,7 @@ User Accounts & KYC
 - Ensures secure, user-friendly onboarding.
 - Compliance builds trust.
   
-Trading & Swaps
-
-Tokenomics & Governance 
+Trading & Swaps, Tokenomics & Governance 
 
 - Zero-fee P2P trading of cryptocurrencies (e.g., BTC, ETH).
 - Support for multiple payment methods (e.g., credit cards).
