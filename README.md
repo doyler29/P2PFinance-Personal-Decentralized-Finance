@@ -102,6 +102,7 @@ User Accounts & KYC
 - Optional KYC via Sumsub API.
 - Ensures secure, user-friendly onboarding.
 - Compliance builds trust.
+  
 Trading & Swaps
 
 Tokenomics & Governance 
@@ -119,6 +120,7 @@ Tokenomics & Governance
 
 
 Challenges & Solutions:
+
 Challenge: KYC integration via HTTPS outcalls may face latency or API downtime.
 Solution: Cache KYC data in canisters for offline access and use multiple KYC providers for redundancy.
 Challenge: Implementing ICRC-1 token standard for P2PF may face complexity in governance logic.
