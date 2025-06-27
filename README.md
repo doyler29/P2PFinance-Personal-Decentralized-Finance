@@ -72,13 +72,13 @@ AI Analytics
 
 Personalized Analytics: AI processes trade data on ICP to provide real-time insights, such as price trends and liquidity suggestions.
 Automation: AI automates dispute resolution suggestions and optimizes offer matching.
-Developer Role: Integrate Caffeine AI models into the backend for analytics and user support, ensuring compatibility with ICP’s data handling.
+Developer Role: Integrate AI models into the backend for analytics and user support, ensuring compatibility with ICP’s data handling.
 
 Developer Contributions
 
 Open-Source App: Developers can extend the React-based frontend, hosted on GitHub, to add features like multi-language support or new payment integrations.
 Canister Development: Write and audit ICP canister code for security and efficiency.
-AI Integration: Fine-tune Caffeine AI models for specific use cases (e.g., fraud detection), ensuring alignment with platform goals.
+AI Integration: Fine-tune AI models for specific use cases (e.g., fraud detection), ensuring alignment with platform goals.
 Testing: Conduct stress tests on trading and subscription systems to ensure robustness.
 
 
