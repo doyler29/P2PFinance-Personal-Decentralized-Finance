@@ -1481,7 +1481,6 @@ Highlighted Profile/Listings on the P2P Platform
 
 Implemented later in the Roadmap:
 
-P2P Lending, an Exchange with Premium features for a subscription fee, such as lower trading fees, advanced charting tools, Ai assist and priority customer support.
 
 Margin Trading (Optional, Community decision), Premium features for a subscription fee.
 
