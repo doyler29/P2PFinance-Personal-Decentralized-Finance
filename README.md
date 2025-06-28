@@ -1345,6 +1345,8 @@ Marketing to on-board New People & Businesses (First 14/15 months) with Referral
 
 (5%) Governance Token Rewards for Referral bonuses over first 12 months + 33% Referral of referred fees
 
+( 1% ) - Lottery - 5 Winners who participate in Per-Sale. Governance sale, minimum 2 ICP - 10 Winners if over 50,000 ICP raised - 20 Winners if over 100,000 ICP raised.
+
 (13.5%) - Airdrop Incentives - Onboarding New People & Businesses through various Promotions over first 14/15 months, Governance Token Rewards
 
 33% Platform P2P Trade fees - Partner/Broker Rewards - 5 years, No Fees on P2P Trading + Multiplier-Airdrop Promotion + various other Incentives. (Partner/Broker spots available, upto 50)
@@ -1356,6 +1358,8 @@ A more detailed Marketing Reward structure is listed below:
 Airdrop - (1%) Onboarding Community through various promotions
 
 Airdrop 2/1st stage: - (1.5%) - 6-8 weeks after Governance sale - Participate in Governance sale, minimum 2 ICP - Use features - Signup/add details/verify. (No Lockup)
+
+( 1% ) - Lottery - 5 Winners who participate in Per-Sale. Governance sale, minimum 2 ICP - 10 Winners if over 50,000 ICP raised - 20 Winners if over 100,000 ICP raised.
 
 Airdrop 2/2nd stage: (3%) Then after Governance sale, 3 month window for further Airdrop Bonuses after SNS finishes. (Locked Neurons 1-2 years, Released each quarter)
 1. Swap feature - 5 txt minimum on swaps.
