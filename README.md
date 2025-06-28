@@ -1345,7 +1345,7 @@ Marketing to on-board New People & Businesses (First 14/15 months) with Referral
 
 (5%) Governance Token Rewards for Referral bonuses over first 12 months + 33% Referral of referred fees
 
-(13.5%) - Airdrop Incentives - Onboarding New People & Businesses through various Promotions over first 12 months, Governance Token Rewards
+(13.5%) - Airdrop Incentives - Onboarding New People & Businesses through various Promotions over first 14/15 months, Governance Token Rewards
 
 33% Platform P2P Trade fees - Partner/Broker Rewards - 5 years, No Fees on P2P Trading + Multiplier-Airdrop Promotion + various other Incentives. (Partner/Broker spots available, upto 50)
 
@@ -1490,6 +1490,7 @@ No Fee's on your P2P Lending
 Trusted Broker/Lender Profile
 Trusted P2P Broker/Lender Listings
 Highlighted Profile/Listings on the P2P Platform
+
 ................................
 
 Implemented later in the Roadmap:
