@@ -1278,11 +1278,17 @@ P2P Token - 225M
 ( 2.5% ) - Per-Sale or VC Funding @ $0.00175 (Funds - Third Party Review) - Per-Sale, No Lockup - VC Funding, Lockup Period - Released Neurons - Plus Airdrop Shares - Per-Sale, Lottery entries per 2 ICP
 
 ( 19% ) - Founders - 10.5% / Developers - 8.5% - Funds placed in Locked Neurons
+
 ( 25% ) - Governance Sale - Staking earns 1.5% - 3.5% Annual + Profit Sharing
+
 ( 10% ) - Liquidity - various partner platforms
+
 ( 25% ) - Treasury - Future development/Marketing/Maintenance/Legal Cost's
+
 ( 5% ) - Governance Token Reward for Referral Bonus
+
 ( 13.5% ) - Airdrop - Onboarding Community through various Promotions
+
 
 ................................
 
