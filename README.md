@@ -54,6 +54,10 @@ Individual analytics tracking per user/client.
 
 AI-driven analytics for optimized trading decisions.
 
+Coin-Marketcap Section. 
+
+News feed, crypto news, tech news, Financial news.
+
 Community governance model with token voting.
 
 Profit-sharing incentives for active participants.
