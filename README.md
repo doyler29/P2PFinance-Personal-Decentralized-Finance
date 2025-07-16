@@ -130,7 +130,7 @@ Expands to real-world asset markets.
 
 Phase 4 (Jan-Jun 2027): Scaling, community input.
 
-Integrates Utopia, enhances global reach.
+Integrate, enhances global reach.
 
 Milestones: canister launches, AI integration completed.
 
@@ -235,7 +235,7 @@ Profit-sharing: 33% team, 33% holders, 33% treasury.
 
 Treasury allocates 1% for token buyback.
 
-Airdrops at milestones (12 weeks, 8-9 months).
+Airdrops at milestones (12 weeks, 8-9 months, 14/15 months/ 3 airdrop windows).
 
 Referral program: 33% of referred fees.
 
@@ -243,9 +243,9 @@ Staking rewards: 1%–3.5% annual yield.
 
 Governance voting shapes platform upgrades.
 
-Token utility: fee discounts, staking benefits.
+Token utility: Profit sharing, staking benefits.
 
-Revenue streams: subscriptions, broker fees.
+Revenue streams: subscriptions, standard fees on features, broker fees.
 
 Token burn mechanism to reduce supply.
 
@@ -1266,13 +1266,15 @@ Jerome Doyle - @Wiseowl_icp Creator, Founder & CEO
 
 
 Buy, Sell & Swap
-CKBTC/CKETH/BTC/ETH/ICP/SOL/GLDT/USDG/USDT/USD,GBP,EUR,UAE,INR
+CKBTC/CKETH/CK/SOL/BTC/ETH/ICP/SOL/GLDT/USDG/USDT/USD,GBP,EUR,UAE,INR
 100+ Payment Methods (In Time)
 Escrow Protection
 Zero Fees – P2P Trading
 P2P Lending
 Exchange – Advanced Features
 Broker Client Management System 
+Coin-Marketcap Section.
+News feed, crypto news, tech news, Financial news.
 No KYC – Stay Anonymous
 Buyer/Seller Reviews
 
@@ -1529,5 +1531,7 @@ Implemented later in the Roadmap:
 
 
 Margin Trading (Optional, Community decision), Premium features for a subscription fee.
+
+In-house broker for lending & Buying/Selling. Primarily CKTokens at reduced rates. Once legal has been sorted...
 
 
